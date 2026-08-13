@@ -1,6 +1,6 @@
 # 📚 Library Management System
 
-A simple Library Management System developed using **PHP, MySQL, HTML, and CSS**.
+A simple Library Management System developed using **PHP, MySQL, HTML, and CSS.
 
 ## 🚀 Features
 
@@ -38,5 +38,5 @@ Install XAMPP and start:
 
 Copy the `LibraryManagementSystem` folder to:
 
-```text
+-text
 C:\xampp\htdocs\libray\
