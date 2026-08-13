@@ -1,5 +1,7 @@
 # 📚 Library Management System
 
+**PHP | MySQL | HTML5 | CSS3 | XAMPP | phpMyAdmin**
+
 A simple **Library Management System** developed using **PHP, MySQL, HTML, and CSS**.
 
 ## ✨ Features
@@ -64,6 +66,11 @@ Open:
 **Username:** `admin`
 
 **Password:** `admin123`
+
+**GitHub:** https://github.com/kasunimadumekala/LibraryManagementSystem
+**Demo Video:** https://github.com/kasunimadumekala/LibraryManagementSystem/blob/main/LibraryManagemnetDemo.mp4
+
+
 
 ## 📁 Project Modules
 
