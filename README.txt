@@ -1,8 +1,42 @@
-LIBRARY MANAGEMENT SYSTEM
-1. Install XAMPP and start Apache + MySQL.
-2. Extract this folder to C:\xampp\htdocs\
-3. Open http://localhost/phpmyadmin
-4. Import database/library_db.sql (it creates library_db automatically).
-5. Open http://localhost/LibraryManagementSystem/login.php
-Login: admin
-Password: admin123
+# 📚 Library Management System
+
+A simple Library Management System developed using **PHP, MySQL, HTML, and CSS**.
+
+## 🚀 Features
+
+- Admin Login
+- Dashboard
+- Add and Delete Books
+- Search Books
+- Add and Delete Members
+- Issue Books
+- Return Books
+- Track Available Book Copies
+- Track Issued and Returned Books
+- MySQL Database Integration
+- Responsive User Interface
+
+## 🛠️ Technologies Used
+
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- XAMPP
+- phpMyAdmin
+
+## ⚙️ Installation
+
+### 1. Install XAMPP
+
+Install XAMPP and start:
+
+- Apache
+- MySQL
+
+### 2. Copy the Project
+
+Copy the `LibraryManagementSystem` folder to:
+
+```text
+C:\xampp\htdocs\libray\
