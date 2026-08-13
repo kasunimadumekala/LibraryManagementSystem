@@ -1,0 +1,5 @@
+<?php
+session_start(); require "config/db.php"; if(isset($_SESSION["admin_id"])){header("Location:index.php");exit;}
+$error="";
+if($_SERVER["REQUEST_METHOD"]==="POST"){ $u=trim($_POST["username"]);$p=hash("sha256",$_POST["password"]);$s=$conn->prepare("SELECT id,username FROM admins WHERE username=? AND password=?");$s->bind_param("ss",$u,$p);$s->execute();$r=$s->get_result();if($row=$r->fetch_assoc()){$_SESSION["admin_id"]=$row["id"];$_SESSION["username"]=$row["username"];header("Location:index.php");exit;}else{$error="Invalid username or password.";}}
+?><!doctype html><html><head><title>Library Login</title><link rel="stylesheet" href="assets/style.css"></head><body><div class="login card"><h1 class="center">📚 Library Management</h1><?php if($error):?><div class="alert"><?=htmlspecialchars($error)?></div><?php endif;?><form method="post"><label>Username</label><input name="username" required><label>Password</label><input type="password" name="password" required><button class="btn" style="width:100%">Login</button></form><p class="center">Demo: admin / admin123</p></div></body></html>

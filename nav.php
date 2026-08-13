@@ -1,0 +1,1 @@
+<nav class="nav"><strong>📚 Library Management System</strong><div><a href="index.php">Dashboard</a><a href="books.php">Books</a><a href="members.php">Members</a><a href="loans.php">Loans</a><a href="logout.php">Logout</a></div></nav>
