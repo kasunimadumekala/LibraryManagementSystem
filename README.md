@@ -67,8 +67,12 @@ Open:
 
 **Password:** `admin123`
 
+
+
 **GitHub:** https://github.com/kasunimadumekala/LibraryManagementSystem
-**Demo Video:** https://github.com/kasunimadumekala/LibraryManagementSystem/blob/main/LibraryManagemnetDemo.mp4
+
+**Demo Video:** https://youtu.be/rRy7XDBj2Vg
+
 
 
 
